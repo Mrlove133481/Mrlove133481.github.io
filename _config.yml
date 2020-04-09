@@ -104,8 +104,8 @@ comments_provider: gitalk
 gitalk:
     owner: Mrlove133481
     repo: BlogComments
-    clientID: 5d9ac8c4cac029903699
-    clientSecret: e77e67a94bb54e639f6af66d21c097b1ecc5a24f
+    clientID: 369cd4b9551f3590c4ce
+    clientSecret: a50d575335bd863643c9187397195c89cc1dedd4
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
