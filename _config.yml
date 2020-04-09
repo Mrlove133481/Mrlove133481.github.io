@@ -77,12 +77,11 @@ gems:
     - jemoji
 #     - jekyll-mentions
 collections:
-    wiki:
+    jottings:
         output: true
-        permalink: /wiki/:path/
+        permalink: /jottings/:path/
 
-repository: bugcontainer/bugcontainer.github.io/
-
+repository: Mrlove133481/Mrlove133481.github.io/
 # ---------------- #
 #      Comments    #
 # ---------------- #
