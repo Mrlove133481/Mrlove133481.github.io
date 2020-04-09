@@ -1,0 +1,15 @@
+- name: BugLi
+  url: https://bugcontainer.github.io
+  src: life
+
+- name: DoubleWay
+  url: https://doubleway.top
+  src: life
+
+- name: Hu12340
+  url: https://hu12340.github.io
+  src: life
+
+- name: 百度
+  url: http://www.baidu.com
+  src: www
