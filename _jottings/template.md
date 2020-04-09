@@ -1,6 +1,6 @@
 ---
-layout: jottings
-title: Jottings Template
+layout: wiki
+title: wiki Template
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2
