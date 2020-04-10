@@ -24,10 +24,10 @@ permalink: /categories/
 </section>
 <!-- /section.content4 -->
 <section class="container posts-content">
-<h3>随笔</h3>
-<ol class="posts-list" id="随笔">
+<h3>短文</h3>
+<ol class="posts-list" id="短文">
 {% for jottings in site.jottings %}
-{% if  jottings.categories[0] == "随笔" %}
+{% if  jottings.categories[0] == "短文" %}
 <li class="posts-list-item">
 <span class="posts-list-meta">{{ jottings.date | date:"%Y-%m-%d" }}</span>
 <a class="posts-list-name" href="{{ site.url }}{{ jottings.url }}">{{ jottings.title }}</a>

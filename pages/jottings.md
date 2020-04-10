@@ -11,10 +11,10 @@ permalink: /jottings/
 > "寻了半生的春天,你一笑  便是了."
 
 <section class="container posts-content">
-<h3>随笔</h3>
+<h3>短文</h3>
 <ol class="posts-list" id="随笔">
 {% for jottings in site.jottings %}
-{% if  jottings.categories[0] == "随笔" %}
+{% if  jottings.categories[0] == "短文" %}
 <li class="posts-list-item">
 <span class="posts-list-meta">{{ jottings.date | date:"%Y-%m-%d" }}</span>
 <a class="posts-list-name" href="{{ site.url }}{{ jottings.url }}">{{ jottings.title }}</a>
