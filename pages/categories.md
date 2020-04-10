@@ -27,7 +27,7 @@ permalink: /categories/
 <h3>随笔</h3>
 <ol class="posts-list" id="随笔">
 {% for jottings in site.jottings %}
-{% if jottings.categories == "随笔" %}
+{% if jottings.categories != "随" %}
 <li class="posts-list-item">
 <span class="posts-list-meta">{{ jottings.date | date:"%Y-%m-%d" }}</span>
 <a class="posts-list-name" href="{{ site.url }}{{ jottings.url }}">{{ jottings.title }}</a>
@@ -37,3 +37,14 @@ permalink: /categories/
 </ol>
 </section>
 <!-- /section.content5 -->
+<section class="container posts-content">
+<h3>随笔</h3>
+<ul class="listing">
+{% for jottings in site.jottings %}
+{% if jottings.title != "Jottings Template" %}
+<li class="listing-item"><a href="{{ site.url }}{{ jottings.url }}">{{ jottings.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</section>
+<!-- /section.content6 -->
