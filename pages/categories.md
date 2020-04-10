@@ -16,7 +16,7 @@ permalink: /categories/
 {% for posts in category.last %}
 <li class="posts-list-item">
 <span class="posts-list-meta">{{ posts.date | date:"%Y-%m-%d" }}</span>
-<a class="posts-list-name" href="{{ site.url }}{{ jottings.url }}">{{ posts.title }}</a>
+<a class="posts-list-name" href="{{ site.url }}{{ posts.url }}">{{ posts.title }}</a>
 </li>
 {% endfor %}
 </ol>
