@@ -8,12 +8,12 @@ menu: 随笔
 permalink: /jottings/
 ---
 
-> 记多少命令和快捷键会让脑袋爆炸呢？
+> "寻了半生的春天,你一笑  便是了."
 
 <ul class="listing">
 {% for jottings in site.jottings %}
 {% if jottings.title != "Jottings Template" %}
-<li class="listing-item"><a href="{{ site.url }}{{ jottings.url }}">{{ jottings.title }}</a></li>
+<li class="listing-item"> <a  class="posts-list-name"  href="{{ site.url }}{{ jottings.url }}">{{ jottings.title }}</a><span class="posts-list-meta">{{ jottings.categories[0] }}</span><span class="posts-list-meta">{{ jottings.date | date:"%Y-%m-%d" }}</span></li>
 {% endif %}
 {% endfor %}
 </ul>
