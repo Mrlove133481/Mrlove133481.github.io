@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
-description: 等下一个Bug
-keywords: BugLi
+title: 关于
+description: 人间至愉是清欢。
+keywords: Mrlove
 comments: true
 menu: 关于
 permalink: /about/
