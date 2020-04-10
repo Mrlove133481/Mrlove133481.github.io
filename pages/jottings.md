@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jottings
+title: 随笔
 description: 归来仍是少年
 keywords: 随笔, Jottings
 comments: false
