@@ -13,7 +13,7 @@ permalink: /jottings/
 <ol class="posts-list" >
 {% for jottings in site.jottings %}
 {% if jottings.title != "Jottings Template" %}
-<li class="listing-item">
+<li class="posts-list-item">
 <a  class="posts-list-name"  href="{{ site.url }}{{ jottings.url }}">{{ jottings.title }}</a>
 <span class="posts-list-meta">&ensp;&ensp;{{ jottings.categories[0] }}</span>
 <span class="posts-list-meta">{{ jottings.date | date:"%Y-%m-%d" }}</span>
