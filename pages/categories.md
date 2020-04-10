@@ -22,7 +22,7 @@ permalink: /categories/
 </ol>
 {% endfor %}
 </section>
-<!-- /section.content2 -->
+<!-- /section.content4 -->
 <section class="container posts-content">
 {% assign sorted_categories = site.jottings | sort %}
 {% for category in sorted_categories %}
@@ -37,5 +37,14 @@ permalink: /categories/
 </ol>
 {% endfor %}
 </section>
-<!-- /section.content3 -->
-
+<!-- /section.content5 -->
+<section class="container posts-content">
+<ul class="listing">
+{% for jottings in site.jottings %}
+{% if jottings.title != "Jottings Template" %}
+<li class="listing-item"><a href="{{ site.url }}{{ jottings.url }}">{{ jottings.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+</section>
+<!-- /section.content6 -->
