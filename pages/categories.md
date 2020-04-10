@@ -27,8 +27,7 @@ permalink: /categories/
 <h3>随笔</h3>
 <ol class="posts-list" id="随笔">
 {% for jottings in site.jottings %}
-<h5>{{jottings.categories | first }}</h5>
-{% if  {{jottings.categories | first }} == "随笔" %}
+{% if  jottings.categories[0] == "随笔" %}
 <li class="posts-list-item">
 <span class="posts-list-meta">{{ jottings.date | date:"%Y-%m-%d" }}</span>
 <a class="posts-list-name" href="{{ site.url }}{{ jottings.url }}">{{ jottings.title }}</a>
