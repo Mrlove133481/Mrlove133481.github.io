@@ -1,7 +1,7 @@
 ---
 layout: jottings
 title: Jottings Template
-categories: [诗集, 短文]
+categories: 
 description: some word here
 keywords: keyword1, keyword2
 ---
